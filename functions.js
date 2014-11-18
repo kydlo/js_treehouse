@@ -19,11 +19,17 @@ sayHello();
 var x = 1;
 debug("x has been set")
 sayHello();
+console.log(x)
 
 x+=10;
 var y =100;
 debug("x has been increased. y has been set")
 sayHello();
+console.log(y)
+// this line doesn't work
+//console.log("x is now" x)
+console.log("x is now",x)
+
 
 /*var case_extra_credit = function (var num_a = prompt("Number A?");
 ) {

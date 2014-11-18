@@ -44,3 +44,5 @@ console["log"](me["Place of Origin"]);
 
 var key = "last_name"
 console.log(me[key])
+
+// more arrays
